@@ -1,2 +1,2 @@
-# react-antd-chrome-extension
+# react-antd-chrome-extension V3
 基于Create React App和Ant Design开发完整的Chrome扩展（Manifest V3版本），包括popup、background和content脚本，并使用Webpack进行压缩打包部署……
