@@ -23,6 +23,9 @@ module.exports = {
       }, {
         from: path.resolve('public/manifest.json'),
         to: path.resolve('build')
+      }, {
+        from: path.resolve('public/css/popup.css'),
+        to: path.resolve('build/css')
       },],
     }),
     // ...getHtmlPlugins(['popup',]),
@@ -51,7 +54,7 @@ module.exports = {
     ],
   },
   optimization: {
-    minimize: false
+    minimize: true
   },
 }
 
