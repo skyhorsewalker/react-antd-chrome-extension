@@ -24,7 +24,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
             throw Error(res.statusText);
           }
           resolve(res.json())
-        }).catch((error) => console.log(error))
+        }).catch((error) => console.error(error))
         break
       case 'test':
         resolve('测试')
